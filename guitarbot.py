@@ -4,7 +4,6 @@ import pyautogui as pa
 
 
 
-
 while keyboard.is_pressed(1) == False:
     if pa.pixelMatchesColor(749,812,(0,152,0)) :
         pa.press('a')
